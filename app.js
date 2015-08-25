@@ -10,8 +10,12 @@ var users = require('./routes/users');
 
 var app = express();
 
+I am a silly change. Don't check me in!
+
 var socketTest = require('./sockettest.js');
-socketTest.nodeJSTest();
+//socketTest.nodeJSTest();
+//socketTest.multiplexTest();
+socketTest.multiplexPlusTCPTest();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
