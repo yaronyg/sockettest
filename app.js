@@ -10,7 +10,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-now I'm a new silly thing dude
+And now I'm super duper silly!
 
 var socketTest = require('./sockettest.js');
 //socketTest.nodeJSTest();
