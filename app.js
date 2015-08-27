@@ -10,7 +10,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-And now I'm super duper silly!
+Can I make the comment go away?
 
 var socketTest = require('./sockettest.js');
 //socketTest.nodeJSTest();
