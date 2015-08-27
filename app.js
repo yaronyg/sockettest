@@ -10,8 +10,12 @@ var users = require('./routes/users');
 
 var app = express();
 
+Can I make the comment go away?
+
 var socketTest = require('./sockettest.js');
-socketTest.nodeJSTest();
+//socketTest.nodeJSTest();
+//socketTest.multiplexTest();
+socketTest.multiplexPlusTCPTest();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
